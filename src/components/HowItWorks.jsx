@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { chipImg, frameImg, frameVideo } from '../utils'
 
 const HowItWorks = () => {
+  const videoRef = useRef();
+  
   return (
     <section className='common-padding'>
         <div className='screen-max-width'>
@@ -21,7 +23,7 @@ const HowItWorks = () => {
                   <img src={frameImg} alt="frame" className='bg-transparent relative z-10' />
                 </div>
                   <div className='hiw-video'>
-                    <video className='pointer-events-none' playsInline preload='none' muted autoPlay >
+                    <video className='pointer-events-none' playsInline preload='none' muted autoPlay ref={videoRef} >
                       <source src={frameVideo} type='video/mp4' />
                     </video>
                   </div>
