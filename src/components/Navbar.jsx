@@ -47,7 +47,7 @@ const Navbar = () => {
         className="bg-white bg-opacity-10 p-2 w-full text-center text-sm opacity-0 flex items-center justify-center" 
       >
         <span>
-          $650 in credit toward iPhone&nbsp;16 or iPhone&nbsp;16&nbsp;Pro when
+          $650 in credit toward iPhone&nbsp;15 or iPhone&nbsp;15&nbsp;Pro when
           you trade in iPhone&nbsp;12 or&nbsp;higher.
         </span>
         <span className="footnote footnote-supglghy">
